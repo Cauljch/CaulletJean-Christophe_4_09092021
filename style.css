@@ -7,10 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.bloc-0 {
-    background-color: #FFF;
-}
-
 a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
