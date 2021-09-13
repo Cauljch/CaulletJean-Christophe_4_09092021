@@ -43,11 +43,57 @@ a:hover {
     padding-right: 0;
 }
 
-.bloc-lg {
-    padding: 100px 50px;
+.bloc-0 {
+    display: inline-flex;
+    height: 80px;
 }
 
-.bloc-md {
+.navbar-header {
+    width: 60%;
+    display: inline-flex;
+}
+.navbar-1 {
+    width: 100%;
+}
+
+.bloc-lg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#bloc-1-hero {
+    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-position: center;
+    height: 400px;
+}
+
+.bloc-lg p {
+    font-size: 20px;
+    z-index: 1;
+    padding: 0 16px 0 16px;
+    background-color: #F3976C;
+    color: #FFF;
+    font-weight: 300;
+    border-radius: 40px;
+    margin: auto;
+}
+
+#bloc-3-wid {
+    background-image: url("img/image-de-presentation.jpg");
+    background-size: 50%;
+    height: 400px;
+}
+
+.col-sm-12 {
+    display: flex;
+    justify-content: center;
+}
+.col-sm-12 h2,
+.col-sm-12 p {
+    width: 50%;
+}
+
+.bloc-2 {
     padding: 50px;
 }
 
@@ -322,7 +368,6 @@ a:hover {
 }
 
 .nav > li {
-    float: left;
     margin-top: 4px;
     font-size: 16px;
 }
@@ -435,8 +480,8 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
 }
 
 .mg-lg {
@@ -461,17 +506,6 @@ nav .caret {
 
 button {
     outline: none!important;
-}
-
-.btn-rd {
-    border-radius: 40px;
-}
-
-.btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
 .icon-md {
@@ -640,7 +674,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -651,7 +684,12 @@ a {
 
 .hero-bloc-text {
     font-size: 28px;
+    width: 100%;
     color: #F3976C!important;
+}
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hero-bloc-text-sub {
@@ -669,7 +707,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -683,10 +721,14 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
+    margin-top: 8px;
+    margin-left: 40px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
+    background: #F3976C;
+    color: #FFFFFF!important;
+    border-radius: 40px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -698,7 +740,6 @@ p {
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
 }
 
 h3 {
@@ -726,13 +767,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
-    margin-bottom: 24px;
-}
-
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin: auto;
+    max-width: 500px;
 }
 
 .avatar {
@@ -759,11 +796,6 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
-}
-
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
