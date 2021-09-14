@@ -97,6 +97,16 @@ a:hover {
     padding: 50px;
 }
 
+#bloc-5-cta {
+    height: 200px;
+    margin-bottom: 40px;
+}
+#bloc-5-cta h2 {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .bloc-sm {
     padding: 20px 50px;
 }
@@ -734,8 +744,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
 }
 
 h2 {
