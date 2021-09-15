@@ -88,9 +88,12 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-.col-sm-12 h2,
-.col-sm-12 p {
+.col-sm-12 h2 {
     width: 50%;
+}
+.col-sm-12 h1 {
+    display: flex;
+    margin: auto;
 }
 
 .bloc-2 {
@@ -109,6 +112,10 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+#bloc-6 {
+    height: 250px;
 }
 
 .bg-center,
